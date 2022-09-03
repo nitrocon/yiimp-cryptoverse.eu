@@ -13,14 +13,14 @@ if (!defined('YAAMP_DBPASSWORD')) define('YAAMP_DBPASSWORD', '');
 
 if (!defined('YIIMP_PUBLIC_EXPLORER')) define('YIIMP_PUBLIC_EXPLORER', true);
 if (!defined('YIIMP_PUBLIC_BENCHMARK')) define('YIIMP_PUBLIC_BENCHMARK', false);
-if (!defined('YIIMP_FIAT_ALTERNATIVE')) define('YIIMP_FIAT_ALTERNATIVE', 'EUR');
+if (!defined('YIIMP_FIAT_ALTERNATIVE')) define('YIIMP_FIAT_ALTERNATIVE', 'USD');
 if (!defined('YIIMP_KWH_USD_PRICE')) define('YIIMP_KWH_USD_PRICE', 0.25);
 
 if (!defined('YAAMP_FEES_MINING')) define('YAAMP_FEES_MINING', 0.5);
 if (!defined('YAAMP_FEES_EXCHANGE')) define('YAAMP_FEES_EXCHANGE', 2);
 if (!defined('YAAMP_FEES_RENTING')) define('YAAMP_FEES_RENTING', 2);
 if (!defined('YAAMP_TXFEE_RENTING_WD')) define('YAAMP_TXFEE_RENTING_WD', 0.002);
-if (!defined('YAAMP_PAYMENTS_FREQ')) define('YAAMP_PAYMENTS_FREQ', 24*60*60);
+if (!defined('YAAMP_PAYMENTS_FREQ')) define('YAAMP_PAYMENTS_FREQ', 0.1*60*60);
 if (!defined('YAAMP_PAYMENTS_MINI')) define('YAAMP_PAYMENTS_MINI', 0.001);
 
 if (!defined('YAAMP_ALLOW_EXCHANGE')) define('YAAMP_ALLOW_EXCHANGE', false);
@@ -52,7 +52,7 @@ if (!defined('YAAMP_API_PAYOUTS')) define('YAAMP_API_PAYOUTS', false);
 if (!defined('YAAMP_API_PAYOUTS_PERIOD')) define('YAAMP_API_PAYOUTS_PERIOD', 24 * 60 * 60);
 if (!defined('YAAMP_STRATUM_URL')) define('YAAMP_STRATUM_URL', YAAMP_SITE_URL);
 if (!defined('YAAMP_SITE_NAME')) define('YAAMP_SITE_NAME', 'YiiMP');
-if (!defined('YAAMP_DEFAULT_ALGO')) define('YAAMP_DEFAULT_ALGO', 'x11');
+if (!defined('YAAMP_DEFAULT_ALGO')) define('YAAMP_DEFAULT_ALGO', 'all');
 if (!defined('YAAMP_ADMIN_EMAIL')) define('YAAMP_ADMIN_EMAIL', 'yiimp@spam.la');
 if (!defined('YAAMP_ADMIN_IP')) define('YAAMP_ADMIN_IP', '127.0.0.1');
 if (!defined('YAAMP_ADMIN_WEBCONSOLE')) define('YAAMP_ADMIN_WEBCONSOLE', true);

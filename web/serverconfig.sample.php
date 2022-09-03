@@ -15,23 +15,23 @@ define('YAAMP_PRODUCTION', true);
 define('YAAMP_RENTAL', true);
 define('YAAMP_LIMIT_ESTIMATE', false);
 
-define('YAAMP_FEES_SOLO', 1);
+define('YAAMP_FEES_SOLO', 0.8);
 
-define('YAAMP_FEES_MINING', 0.5);
+define('YAAMP_FEES_MINING', 0.8);
 define('YAAMP_FEES_EXCHANGE', 2);
 define('YAAMP_FEES_RENTING', 2);
 define('YAAMP_TXFEE_RENTING_WD', 0.002);
-define('YAAMP_PAYMENTS_FREQ', 3*60*60);
+define('YAAMP_PAYMENTS_FREQ', 0.1*60*60);
 define('YAAMP_PAYMENTS_MINI', 0.001);
 
 define('YAAMP_ALLOW_EXCHANGE', false);
 define('YIIMP_PUBLIC_EXPLORER', true);
 define('YIIMP_PUBLIC_BENCHMARK', false);
-define('YIIMP_FIAT_ALTERNATIVE', 'EUR'); // USD is main
+define('YIIMP_FIAT_ALTERNATIVE', 'USD'); // USD is main
 
 define('YAAMP_USE_NICEHASH_API', false);
 
-define('YAAMP_BTCADDRESS', '1Auhps1mHZQpoX4mCcVL8odU81VakZQ6dR');
+define('YAAMP_BTCADDRESS', '15drtFuqpMqSdeEuyepKyvMgQWhcGQmXYP');
 define('YAAMP_SITE_URL', 'yiimp.ccminer.org');
 define('YAAMP_STRATUM_URL', YAAMP_SITE_URL); // change if your stratum server is on a different host
 define('YAAMP_SITE_NAME', 'YiiMP');
@@ -40,7 +40,7 @@ define('YAAMP_ADMIN_IP', ''); // samples: "80.236.118.26,90.234.221.11" or "10.0
 define('YAAMP_ADMIN_WEBCONSOLE', true);
 define('YAAMP_CREATE_NEW_COINS', true);
 define('YAAMP_NOTIFY_NEW_COINS', false);
-define('YAAMP_DEFAULT_ALGO', 'x11');
+define('YAAMP_DEFAULT_ALGO', 'all');
 
 define('YAAMP_USE_NGINX', false);
 
