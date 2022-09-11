@@ -113,7 +113,10 @@ And finally remove the IP filter check in SiteController.php
 
 There are logs generated in the /var/stratum folder and /var/log/stratum/debug.log for the php log.
 
-More instructions coming as needed.
+Using MySQLTuner:
+- sudo apt-get install mysqltuner
+- wait at least 24h
+- in cli: mysqltuner
 
 
 There a lot of unused code in the php branch. Lot come from other projects I worked on and I've been lazy to clean it up before to integrate it to yaamp. It's mostly based on the Yii framework which implements a lightweight MVC.
