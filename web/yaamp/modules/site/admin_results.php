@@ -49,7 +49,7 @@ echo <<<end
 <th data-sorter="currency" align="right">Balance<br/>Available</th>
 <th data-sorter="currency" align="right">BTC</th>
 <th data-sorter="currency" align="right">USD</th>
-<th data-sorter="currency" align="right">Win<br/>Market</th>
+<th data-sorter="currency" align="right">Block Reward<br/>Market</th>
 
 </tr>
 </thead><tbody>
@@ -147,7 +147,7 @@ foreach($coins as $coin)
 	$price2 = bitcoinvaluetoa($coin->price2);
 
 	if($coin->dontsell && YAAMP_ALLOW_EXCHANGE)
-		echo "<td align=right style='font-size: .9em; background-color: #ffaaaa'>$price<br>$price2</td>";
+		echo "<td align=right style='font-size: .9em; background-color: #7f5555'>$price<br>$price2</td>";
 	else
 		echo "<td align=right style='font-size: .9em'>$price<br>$price2</td>";
 
